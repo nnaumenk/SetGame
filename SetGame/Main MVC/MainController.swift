@@ -59,6 +59,12 @@ final class MainController: UIViewController {
         
         mvcModel.anyCancellable.append(mvcModel.$isDealCardButtonActive.receive(on: DispatchQueue.main).assign(to: \.isEnabled, on: mvcView.dealCardButton))
         
+        mvcModel.anyCancellable.append(mvcModel.$deck.sink { [weak self] deck in
+            self?.mvcView.deckCountLabel.text = String(deck.deckCards.count)
+        })
+                                                        
+//                                        .receive(on: DispatchQueue.main).assign(to: \.text, on: mvcView.deckCountLabel))
+        
     }
     
     private func addActions() {
@@ -141,12 +147,16 @@ extension MainController {
     }
     
     private func getCellBorderColorSelection(card: Card) -> CGColor? {
-        if card.isSelected == false { return nil }
         
-        guard let isMatched = card.isMatched else { return UIColor.blue.cgColor }
+        let selectionColor = UIColor.blue.cgColor
+        let matchColor = UIColor.green.cgColor
+        let mismatchColor = UIColor.red.cgColor
         
-        if isMatched { return UIColor.green.cgColor }
-        else { return UIColor.red.cgColor }
+        guard let isSelected = card.isSelected else { return nil }
+        guard isSelected else { return nil }
+        guard let isMatched = card.isMatched else { return selectionColor }
+        if isMatched { return matchColor }
+        else { return mismatchColor }
     }
     
     func makeDataSource() -> UICollectionViewDiffableDataSource<Section, Card> {
@@ -156,9 +166,12 @@ extension MainController {
           let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CardCollectionViewCell", for: indexPath) as? CardCollectionViewCell
             cell?.cardButton.setAttributedTitle(self.getAttributedString(card: card), for: .normal)
             cell?.cardButton.layer.borderColor = self.getCellBorderColorSelection(card: card)
+           
             cell?.clickAction = { [weak self] in
-                //print("CARD = \n", self?.mvcModel.deck.playCards[safe: indexPath.row])
-                self?.mvcModel.cellClick(index: indexPath.row)
+                guard let cell = cell else { return }
+                guard let index = collectionView.indexPath(for: cell)?.row else { return }
+                
+                self?.mvcModel.cellClick(index: index)
                 self?.applySnapshot()
             }
             return cell

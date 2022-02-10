@@ -9,9 +9,15 @@ import Foundation
 
 struct Deck {
     
+    var selectedCards: [Card] {
+        self.playCards.filter { $0.isSelected == true }
+    }
+    
     private(set) var deckCards: [Card] = []
     private(set) var playCards: [Card] = []
-    private(set) var selectedCards: [Card] = []
+    
+    
+    //private(set) var selectedCards: [Card] = []
     
     init(toShuffle: Bool) {
         
@@ -29,17 +35,21 @@ struct Deck {
         
     }
     
-    mutating func drawFromDeck(numberOfCards: Int) {
-        self.playCards += self.deckCards.removeFirstN(numberOfCards)
+    mutating func drawFromDeck(numberOfCards: Int) -> [Card] {
+        self.deckCards.removeFirstN(numberOfCards)
     }
     
-    mutating func removeFromTable(selectedIndices: [Int]) {
-        for index in selectedIndices {
-            if self.playCards.indices.contains(index) {
-                self.playCards.remove(at: index)
-            }
-        }
+    mutating func addCardsToTable(cards: [Card]) {
+        self.playCards += cards
     }
+    
+//    mutating func removeCardsFromTable(selectedIndices: [Int]) {
+//        for index in selectedIndices {
+//            if self.playCards.indices.contains(index) {
+//                self.playCards.remove(at: index)
+//            }
+//        }
+//    }
     
     
     
@@ -49,24 +59,55 @@ struct Deck {
         
         print("Selected")
         if !self.playCards.indices.contains(index) { return }
-        
+        print("isSelected = true")
         self.playCards[index].isSelected = true
-        self.selectedCards.append(self.playCards[index])
     }
     
     mutating func deselectCard(index: Int) {
         print("Deselected")
         if !self.playCards.indices.contains(index) { return }
-        print("OK1")
-        
-        
-        guard let index = self.selectedCards.firstIndex(of: self.playCards[index]) else { return }
-        
-        
-        print("OK2", self.selectedCards.count)
-        self.selectedCards.remove(at: index)
         self.playCards[index].isSelected = false
-        print("OK3", self.selectedCards.count)
+        
+        print("isSelected = false")
+    }
+    
+    mutating func deselectAllCards() {
+        for index in self.playCards.indices {
+            self.playCards[index].isSelected = false
+            self.playCards[index].isMatched = nil
+        }
+    }
+    
+    mutating func changeMatchedCards() {
+        
+        if self.deckCards.isEmpty {
+            self.playCards = self.playCards.filter { !($0.isMatched ?? false) }
+        } else {
+            for index in self.playCards.indices {
+                guard let isMatched = self.playCards[index].isMatched else { continue }
+                guard isMatched else { continue }
+                guard let newCard = self.drawFromDeck(numberOfCards: 1).first else { break }
+
+                self.playCards[index] = newCard
+            }
+        }
+        
+    }
+    
+    mutating func matchSelectedCards() {
+        for index in self.playCards.indices {
+            if self.playCards[index].isSelected ?? false {
+                self.playCards[index].isMatched = true
+            }
+        }
+    }
+    
+    mutating func mismatchSelectedCards() {
+        for index in self.playCards.indices {
+            if self.playCards[index].isSelected ?? false {
+                self.playCards[index].isMatched = false
+            }
+        }
     }
     
 }

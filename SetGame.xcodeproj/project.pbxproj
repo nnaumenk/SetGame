@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7829579727B29E8600F7A13D /* ArrayCardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829579627B29E8600F7A13D /* ArrayCardElement.swift */; };
+		7829579927B2EC8700F7A13D /* ArrayHashableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829579827B2EC8700F7A13D /* ArrayHashableElement.swift */; };
 		784F765227A6CDCA000AEC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F765127A6CDCA000AEC83 /* AppDelegate.swift */; };
 		784F765427A6CDCA000AEC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F765327A6CDCA000AEC83 /* SceneDelegate.swift */; };
 		784F765B27A6CDCF000AEC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784F765A27A6CDCF000AEC83 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7829579627B29E8600F7A13D /* ArrayCardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayCardElement.swift; sourceTree = "<group>"; };
+		7829579827B2EC8700F7A13D /* ArrayHashableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayHashableElement.swift; sourceTree = "<group>"; };
 		784F764E27A6CDCA000AEC83 /* SetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784F765127A6CDCA000AEC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		784F765327A6CDCA000AEC83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				784F767D27AD800C000AEC83 /* UIControl.swift */,
 				784F767227A6D732000AEC83 /* Sequence.swift */,
 				784F767627A6F466000AEC83 /* Array.swift */,
+				7829579627B29E8600F7A13D /* ArrayCardElement.swift */,
+				7829579827B2EC8700F7A13D /* ArrayHashableElement.swift */,
 				784F767B27AD5C5A000AEC83 /* Collection.swift */,
 			);
 			path = Extensions;
@@ -201,9 +207,11 @@
 			files = (
 				784F768027AEC27E000AEC83 /* SectionEnum.swift in Sources */,
 				784F765227A6CDCA000AEC83 /* AppDelegate.swift in Sources */,
+				7829579727B29E8600F7A13D /* ArrayCardElement.swift in Sources */,
 				784F767727A6F466000AEC83 /* Array.swift in Sources */,
 				784F766927A6D035000AEC83 /* MainView.swift in Sources */,
 				784F767C27AD5C5B000AEC83 /* Collection.swift in Sources */,
+				7829579927B2EC8700F7A13D /* ArrayHashableElement.swift in Sources */,
 				784F767E27AD800C000AEC83 /* UIControl.swift in Sources */,
 				784F766E27A6D134000AEC83 /* MainModel.swift in Sources */,
 				784F767127A6D32D000AEC83 /* CardModel.swift in Sources */,
@@ -351,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HBYUQK2856;
@@ -360,7 +369,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,6 +377,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Nazar.SetGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HBYUQK2856;
@@ -388,7 +399,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +407,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Nazar.SetGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

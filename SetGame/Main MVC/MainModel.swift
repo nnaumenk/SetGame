@@ -16,8 +16,14 @@ class MainModel {
     
     @Published var isDealCardButtonActive = true
     
+    var isDealCardButtonActiveCondition: Bool {
+        if deck.playCards.count + 4 > maxNumberOfCells { return false }
+        if deck.deckCards.isEmpty { return false }
+        return true
+    }
+    
     var anyCancellable = [AnyCancellable?]()
-    var deck: Deck!
+    @Published var deck = Deck(toShuffle: true)
     
     
     
@@ -34,14 +40,24 @@ class MainModel {
     
     func startGame() {
         deck = Deck(toShuffle: true)
-        deck.drawFromDeck(numberOfCards: 12)
+        let newCards = deck.drawFromDeck(numberOfCards: 12)
+        deck.addCardsToTable(cards: newCards)
     }
     
     func dealButtonClick() {
-        if deck.playCards.count + 3 > maxNumberOfCells { return }
+        isDealCardButtonActive = isDealCardButtonActiveCondition
         
-        deck.drawFromDeck(numberOfCards: 3)
-        if deck.playCards.count + 3 > maxNumberOfCells { isDealCardButtonActive = false }
+        if deck.selectedCards.count == 3 {
+            if deck.selectedCards.areSet() {
+                deck.changeMatchedCards()
+                return
+            }
+        }
+    
+        //if deck.playCards.count + 3 > maxNumberOfCells { return }
+        
+        let newCards = deck.drawFromDeck(numberOfCards: 3)
+        deck.addCardsToTable(cards: newCards)
     }
     
     func restartButtonClick() {
@@ -55,72 +71,68 @@ class MainModel {
     }
     
     func cellClick(index: Int) {
+        isDealCardButtonActive = isDealCardButtonActiveCondition
         
-        //selecting of cell
-        //you can deselect cell if you haven't already selected 3 cells
-        cellClickStepOne(index: index)
-       
+        print("index", index)
         //if no match deselect them and select current
         // if match replace match card with new 3 cards
         // if current cell was not replaced select it
-        cellClickStepTwo(index: index)
+        // if currentIndex contains
+        print("\n1\n")
+        cellClickStep1()
         
-        
-        
-        
-        if deck.selectedCards.count == 3 {
-            //check Match
-            print("Check")
-            
-        }
-        
-        
-        
-        //deck.playCards[safe: index]?.select()
-        //lastSelectedIndices.append(index)
+        //selecting of cell
+        //you can deselect cell if you haven't already selected 3 cells
+        print("\n2\n")
+        cellClickStep2(index: index)
+       
+       
+        //showing matching
+        //if match activate deal button
+        print("\n3\n")
+        cellClickStep3()
     }
-    
-//    func cellDeselected(index: Int) {
-//
-//        deck.deselectCard(index: index)
-//        if lastSelectedIndices.indices.contains(index) {
-//            lastSelectedIndices.remove(at: index)
-//        }
-//
-//        //deck.playCards.in
-//
-//    }
-    
 }
 
 extension MainModel {
     
-    private func cellClickStepOne(index: Int) {
+    private func cellClickStep1() {
+        //if no match deselect them and select current
+        // if match replace match card with new 3 cards
+        // if current cell was not replaced select it
+        if deck.selectedCards.count != 3 { return }
+        
+        if deck.selectedCards.areSet() {
+            deck.changeMatchedCards()
+        } else {
+            deck.deselectAllCards()
+        }
+        
+    }
+    
+    private func cellClickStep2(index: Int) {
         
         //selecting of cell
         //you can deselect cell if you haven't already selected 3 cells
         if deck.selectedCards.count < 3 {
             if let isSelected = deck.playCards[safe: index]?.isSelected, isSelected {
+                print("deselect!")
                 deck.deselectCard(index: index)
             } else { deck.selectCard(index: index) }
         }
     }
     
-    private func cellClickStepTwo(index: Int) {
-        //if no match deselect them and select current
-        // if match replace match card with new 3 cards
-        // if current cell was not replaced select it
+    private func cellClickStep3() {
+        
+        //showing matching
+        //if match activate deal button
         if deck.selectedCards.count == 3 {
-            
-//            if self.deck.selectedCards.uni
-//                self.deck
-//            } else {
-//                
-//            }
-            //if no match deselect them and select current
-            // if match replace match card with new 3 cards
-            // if current cell was not replaced select it
-            print("")
+            if deck.selectedCards.areSet() {
+                deck.matchSelectedCards()
+                self.isDealCardButtonActive = true
+            } else {
+                deck.mismatchSelectedCards()
+            }
         }
     }
     
