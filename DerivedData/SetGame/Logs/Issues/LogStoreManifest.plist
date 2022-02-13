@@ -34,6 +34,34 @@
 			<key>uniqueIdentifier</key>
 			<string>96255B56-A4B9-49F0-8C61-B312D025FB59</string>
 		</dict>
+		<key>FEA11170-9316-4930-8F3E-0F64E0AF8959</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>FEA11170-9316-4930-8F3E-0F64E0AF8959.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>SetGame-dttkqdxcqblklpgzqtpksitdhzaq</string>
+			<key>timeStartedRecording</key>
+			<real>666476807.22234905</real>
+			<key>timeStoppedRecording</key>
+			<real>666476812.00165296</real>
+			<key>title</key>
+			<string>Build target SetGame</string>
+			<key>uniqueIdentifier</key>
+			<string>FEA11170-9316-4930-8F3E-0F64E0AF8959</string>
+		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
 	<true/>

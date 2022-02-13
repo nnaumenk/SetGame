@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>02586B15-1D80-4905-85F6-75DD8286A01B</key>
+		<key>0513D2E0-0B98-4E88-AFA2-9543338816E3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>02586B15-1D80-4905-85F6-75DD8286A01B.xcactivitylog</string>
+			<string>0513D2E0-0B98-4E88-AFA2-9543338816E3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666013290.79356205</real>
+			<real>666467567.10457003</real>
 			<key>timeStoppedRecording</key>
-			<real>666013491.43829799</real>
+			<real>666467645.16233802</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>02586B15-1D80-4905-85F6-75DD8286A01B</string>
+			<string>0513D2E0-0B98-4E88-AFA2-9543338816E3</string>
 		</dict>
-		<key>03CA5BE6-7649-46FB-A4B4-124074C584C4</key>
+		<key>07D6460F-CCF8-4858-BB64-72A991A4C0A4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>03CA5BE6-7649-46FB-A4B4-124074C584C4.xcactivitylog</string>
+			<string>07D6460F-CCF8-4858-BB64-72A991A4C0A4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666022813.31530905</real>
+			<real>666472607.06813705</real>
 			<key>timeStoppedRecording</key>
-			<real>666023056.52310705</real>
+			<real>666472896.42579401</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>03CA5BE6-7649-46FB-A4B4-124074C584C4</string>
+			<string>07D6460F-CCF8-4858-BB64-72A991A4C0A4</string>
 		</dict>
-		<key>0627D208-E0CF-42A9-924B-C4CE847711C6</key>
+		<key>080564D8-4533-4FA2-AB00-A0AD9F65E9AD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0627D208-E0CF-42A9-924B-C4CE847711C6.xcactivitylog</string>
+			<string>080564D8-4533-4FA2-AB00-A0AD9F65E9AD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666022782.87173295</real>
+			<real>666465707.96674597</real>
 			<key>timeStoppedRecording</key>
-			<real>666022800.48429</real>
+			<real>666465780.30463099</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>0627D208-E0CF-42A9-924B-C4CE847711C6</string>
+			<string>080564D8-4533-4FA2-AB00-A0AD9F65E9AD</string>
 		</dict>
-		<key>07DAAB13-944C-4E02-A65B-9AB8F26CB02C</key>
+		<key>0B61F41B-CDEE-4D4D-AAC1-48296D930016</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>07DAAB13-944C-4E02-A65B-9AB8F26CB02C.xcactivitylog</string>
+			<string>0B61F41B-CDEE-4D4D-AAC1-48296D930016.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666010790.13291502</real>
+			<real>666469483.79191005</real>
 			<key>timeStoppedRecording</key>
-			<real>666010803.52049696</real>
+			<real>666469694.48731601</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>07DAAB13-944C-4E02-A65B-9AB8F26CB02C</string>
+			<string>0B61F41B-CDEE-4D4D-AAC1-48296D930016</string>
 		</dict>
-		<key>0CF923C5-78BF-4B54-B9B5-4EE0EE68A8C1</key>
+		<key>0D98AFE0-E5CC-47CD-8A00-981CFB1A1494</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0CF923C5-78BF-4B54-B9B5-4EE0EE68A8C1.xcactivitylog</string>
+			<string>0D98AFE0-E5CC-47CD-8A00-981CFB1A1494.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666032479.14230001</real>
+			<real>666467449.40316999</real>
 			<key>timeStoppedRecording</key>
-			<real>666032820.77618694</real>
+			<real>666467559.75398505</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>0CF923C5-78BF-4B54-B9B5-4EE0EE68A8C1</string>
+			<string>0D98AFE0-E5CC-47CD-8A00-981CFB1A1494</string>
 		</dict>
-		<key>0D69D610-3958-4075-9A71-C7675830C2EC</key>
+		<key>131A791E-B6C0-4CCE-8001-8D2538830C3B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0D69D610-3958-4075-9A71-C7675830C2EC.xcactivitylog</string>
+			<string>131A791E-B6C0-4CCE-8001-8D2538830C3B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666030731.88433099</real>
+			<real>666475450.28517699</real>
 			<key>timeStoppedRecording</key>
-			<real>666030942.05046403</real>
+			<real>666475592.526366</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>0D69D610-3958-4075-9A71-C7675830C2EC</string>
+			<string>131A791E-B6C0-4CCE-8001-8D2538830C3B</string>
 		</dict>
-		<key>12015B02-8FFB-485A-927E-B4AD11ED35B3</key>
+		<key>24A48AAD-B860-4216-B3B7-68310C969484</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>12015B02-8FFB-485A-927E-B4AD11ED35B3.xcactivitylog</string>
+			<string>24A48AAD-B860-4216-B3B7-68310C969484.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666025391.81355</real>
+			<real>666473340.91539502</real>
 			<key>timeStoppedRecording</key>
-			<real>666025411.27113998</real>
+			<real>666473455.16821396</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>12015B02-8FFB-485A-927E-B4AD11ED35B3</string>
+			<string>24A48AAD-B860-4216-B3B7-68310C969484</string>
 		</dict>
-		<key>132FF146-CA80-4180-B1F6-B031FB43C8CA</key>
+		<key>2B97776B-F192-48A0-947E-CDF6A8D2483B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>132FF146-CA80-4180-B1F6-B031FB43C8CA.xcactivitylog</string>
+			<string>2B97776B-F192-48A0-947E-CDF6A8D2483B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666025429.14821696</real>
+			<real>666473054.81294799</real>
 			<key>timeStoppedRecording</key>
-			<real>666026168.15788698</real>
+			<real>666473331.07642806</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>132FF146-CA80-4180-B1F6-B031FB43C8CA</string>
+			<string>2B97776B-F192-48A0-947E-CDF6A8D2483B</string>
 		</dict>
-		<key>1E694575-7B3A-4F96-B186-FD9E65B91887</key>
+		<key>2FF69BE5-93A9-4BF0-9CA7-73FA8C786537</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1E694575-7B3A-4F96-B186-FD9E65B91887.xcactivitylog</string>
+			<string>2FF69BE5-93A9-4BF0-9CA7-73FA8C786537.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +304,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666031802.08970404</real>
+			<real>666474162.91271496</real>
 			<key>timeStoppedRecording</key>
-			<real>666031915.83678901</real>
+			<real>666474307.59019494</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>1E694575-7B3A-4F96-B186-FD9E65B91887</string>
+			<string>2FF69BE5-93A9-4BF0-9CA7-73FA8C786537</string>
 		</dict>
-		<key>268D0E6C-8B3F-492A-B733-17366E2B89AB</key>
+		<key>3154838C-74AE-46BF-8FDF-E023C671A2F4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>268D0E6C-8B3F-492A-B733-17366E2B89AB.xcactivitylog</string>
+			<string>3154838C-74AE-46BF-8FDF-E023C671A2F4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +338,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666032271.82171202</real>
+			<real>666462252.81655705</real>
 			<key>timeStoppedRecording</key>
-			<real>666032322.61392701</real>
+			<real>666463715.16863</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>268D0E6C-8B3F-492A-B733-17366E2B89AB</string>
+			<string>3154838C-74AE-46BF-8FDF-E023C671A2F4</string>
 		</dict>
-		<key>27F7AB36-C2B9-4845-9FED-4BE7E2230326</key>
+		<key>35EFA129-BD32-496E-9FB7-F7C87078D873</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -355,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>27F7AB36-C2B9-4845-9FED-4BE7E2230326.xcactivitylog</string>
+			<string>35EFA129-BD32-496E-9FB7-F7C87078D873.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +372,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666026450.43970597</real>
+			<real>666474970.24258602</real>
 			<key>timeStoppedRecording</key>
-			<real>666030710.70493698</real>
+			<real>666475440.61975896</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>27F7AB36-C2B9-4845-9FED-4BE7E2230326</string>
+			<string>35EFA129-BD32-496E-9FB7-F7C87078D873</string>
 		</dict>
-		<key>2E4E59D0-DABA-460E-A577-9A564A5DBE24</key>
+		<key>370CA6A2-B4B3-40E8-BFDF-62D2957C63FA</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -389,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2E4E59D0-DABA-460E-A577-9A564A5DBE24.xcactivitylog</string>
+			<string>370CA6A2-B4B3-40E8-BFDF-62D2957C63FA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +406,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666034108.100721</real>
+			<real>666473837.23805404</real>
 			<key>timeStoppedRecording</key>
-			<real>666037343.39587903</real>
+			<real>666474016.63085496</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>2E4E59D0-DABA-460E-A577-9A564A5DBE24</string>
+			<string>370CA6A2-B4B3-40E8-BFDF-62D2957C63FA</string>
 		</dict>
-		<key>2F8DB58B-2CF2-4AC7-8DC3-21DED04D39D7</key>
+		<key>37BABB55-6240-47C2-A8C6-60C1BA3DCA1F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -423,7 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2F8DB58B-2CF2-4AC7-8DC3-21DED04D39D7.xcactivitylog</string>
+			<string>37BABB55-6240-47C2-A8C6-60C1BA3DCA1F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +440,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666032834.09843004</real>
+			<real>666475598.93198097</real>
 			<key>timeStoppedRecording</key>
-			<real>666032943.60800803</real>
+			<real>666475703.09972</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>2F8DB58B-2CF2-4AC7-8DC3-21DED04D39D7</string>
+			<string>37BABB55-6240-47C2-A8C6-60C1BA3DCA1F</string>
 		</dict>
-		<key>3230A2E1-B238-46FA-BD39-FA508756AF7C</key>
+		<key>409F11B9-1914-4D78-A556-4F19DC00B896</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -457,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3230A2E1-B238-46FA-BD39-FA508756AF7C.xcactivitylog</string>
+			<string>409F11B9-1914-4D78-A556-4F19DC00B896.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,15 +474,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666023144.11985397</real>
+			<real>666474567.40932405</real>
 			<key>timeStoppedRecording</key>
-			<real>666023286.77038598</real>
+			<real>666474649.62708795</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>3230A2E1-B238-46FA-BD39-FA508756AF7C</string>
+			<string>409F11B9-1914-4D78-A556-4F19DC00B896</string>
 		</dict>
-		<key>3B618D6F-F6A6-4A01-88E7-C623B3EEC392</key>
+		<key>415F7539-033F-4421-A755-68CA392BDC92</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -491,7 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3B618D6F-F6A6-4A01-88E7-C623B3EEC392.xcactivitylog</string>
+			<string>415F7539-033F-4421-A755-68CA392BDC92.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +508,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011528.69248199</real>
+			<real>666468504.55166602</real>
 			<key>timeStoppedRecording</key>
-			<real>666011702.36706603</real>
+			<real>666469394.97644603</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>3B618D6F-F6A6-4A01-88E7-C623B3EEC392</string>
+			<string>415F7539-033F-4421-A755-68CA392BDC92</string>
 		</dict>
-		<key>3E84C730-929C-4658-B731-E3310E0F8BEC</key>
+		<key>49C74BE1-56DF-45B5-88AE-AFF80290DA8A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -525,7 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3E84C730-929C-4658-B731-E3310E0F8BEC.xcactivitylog</string>
+			<string>49C74BE1-56DF-45B5-88AE-AFF80290DA8A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -542,15 +542,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666022566.34637904</real>
+			<real>666467295.059677</real>
 			<key>timeStoppedRecording</key>
-			<real>666022742.36340904</real>
+			<real>666467372.37582397</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>3E84C730-929C-4658-B731-E3310E0F8BEC</string>
+			<string>49C74BE1-56DF-45B5-88AE-AFF80290DA8A</string>
 		</dict>
-		<key>47EBD4E6-F6A0-47CB-AA5F-F2534AD879B5</key>
+		<key>511CB18D-7EC7-4E95-A452-2F99595C94C8</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -559,7 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>47EBD4E6-F6A0-47CB-AA5F-F2534AD879B5.xcactivitylog</string>
+			<string>511CB18D-7EC7-4E95-A452-2F99595C94C8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -576,15 +576,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011708.19002497</real>
+			<real>666469421.98748302</real>
 			<key>timeStoppedRecording</key>
-			<real>666011766.02816796</real>
+			<real>666469476.16241097</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>47EBD4E6-F6A0-47CB-AA5F-F2534AD879B5</string>
+			<string>511CB18D-7EC7-4E95-A452-2F99595C94C8</string>
 		</dict>
-		<key>58046676-8B86-453E-B941-3D1189EA4ACF</key>
+		<key>582CDB8A-7695-45C6-9C3F-CA469E9268B9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -593,7 +593,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>58046676-8B86-453E-B941-3D1189EA4ACF.xcactivitylog</string>
+			<string>582CDB8A-7695-45C6-9C3F-CA469E9268B9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -610,15 +610,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666032399.00342798</real>
+			<real>666476555.57483494</real>
 			<key>timeStoppedRecording</key>
-			<real>666032466.48763502</real>
+			<real>666476602.178653</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>58046676-8B86-453E-B941-3D1189EA4ACF</string>
+			<string>582CDB8A-7695-45C6-9C3F-CA469E9268B9</string>
 		</dict>
-		<key>5B502398-F8F4-46A5-921C-7313C8AF9679</key>
+		<key>64399CBD-CDF1-481B-8604-4DF679286D59</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -627,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5B502398-F8F4-46A5-921C-7313C8AF9679.xcactivitylog</string>
+			<string>64399CBD-CDF1-481B-8604-4DF679286D59.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -644,15 +644,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666012661.81231499</real>
+			<real>666474510.99384797</real>
 			<key>timeStoppedRecording</key>
-			<real>666012680.08942199</real>
+			<real>666474555.05633605</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>5B502398-F8F4-46A5-921C-7313C8AF9679</string>
+			<string>64399CBD-CDF1-481B-8604-4DF679286D59</string>
 		</dict>
-		<key>658B2218-4AC4-4241-98A7-FB51FDEB7448</key>
+		<key>6A46AF35-FF7C-410B-A0A8-997B63BC9663</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -661,7 +661,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>658B2218-4AC4-4241-98A7-FB51FDEB7448.xcactivitylog</string>
+			<string>6A46AF35-FF7C-410B-A0A8-997B63BC9663.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -678,15 +678,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011820.79748905</real>
+			<real>666469798.49232602</real>
 			<key>timeStoppedRecording</key>
-			<real>666012653.42743003</real>
+			<real>666471218.22171104</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>658B2218-4AC4-4241-98A7-FB51FDEB7448</string>
+			<string>6A46AF35-FF7C-410B-A0A8-997B63BC9663</string>
 		</dict>
-		<key>73037244-4741-4621-A0B5-0254CE6E8C74</key>
+		<key>7138AAED-9FBA-4FDD-904C-1772151FB6ED</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -695,7 +695,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>73037244-4741-4621-A0B5-0254CE6E8C74.xcactivitylog</string>
+			<string>7138AAED-9FBA-4FDD-904C-1772151FB6ED.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -712,15 +712,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666031082.64477897</real>
+			<real>666476717.02833796</real>
 			<key>timeStoppedRecording</key>
-			<real>666031109.012568</real>
+			<real>666476744.406564</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>73037244-4741-4621-A0B5-0254CE6E8C74</string>
+			<string>7138AAED-9FBA-4FDD-904C-1772151FB6ED</string>
 		</dict>
-		<key>77075685-9F6A-456A-B032-3E9F436F1321</key>
+		<key>744A8A1E-3B8E-4DE5-9207-0D2A37DFE93C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -729,7 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>77075685-9F6A-456A-B032-3E9F436F1321.xcactivitylog</string>
+			<string>744A8A1E-3B8E-4DE5-9207-0D2A37DFE93C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -746,15 +746,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666026253.93923199</real>
+			<real>666465788.84985197</real>
 			<key>timeStoppedRecording</key>
-			<real>666026391.93394303</real>
+			<real>666465831.435624</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>77075685-9F6A-456A-B032-3E9F436F1321</string>
+			<string>744A8A1E-3B8E-4DE5-9207-0D2A37DFE93C</string>
 		</dict>
-		<key>7C105D69-CFD7-4801-A867-8A550581E6F2</key>
+		<key>758879A0-F76A-4DED-85FD-F4AF2689923B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -763,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7C105D69-CFD7-4801-A867-8A550581E6F2.xcactivitylog</string>
+			<string>758879A0-F76A-4DED-85FD-F4AF2689923B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -780,15 +780,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666012825.32100904</real>
+			<real>666467391.52970803</real>
 			<key>timeStoppedRecording</key>
-			<real>666012909.56880295</real>
+			<real>666467447.76557302</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>7C105D69-CFD7-4801-A867-8A550581E6F2</string>
+			<string>758879A0-F76A-4DED-85FD-F4AF2689923B</string>
 		</dict>
-		<key>8A359474-BAC5-4B9D-A959-C853A8BFA045</key>
+		<key>766D512D-28A1-478C-A829-B5DF0D3DED7B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -797,7 +797,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8A359474-BAC5-4B9D-A959-C853A8BFA045.xcactivitylog</string>
+			<string>766D512D-28A1-478C-A829-B5DF0D3DED7B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -814,15 +814,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666012731.30895305</real>
+			<real>666473519.72186005</real>
 			<key>timeStoppedRecording</key>
-			<real>666012820.76457405</real>
+			<real>666473821.80671406</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>8A359474-BAC5-4B9D-A959-C853A8BFA045</string>
+			<string>766D512D-28A1-478C-A829-B5DF0D3DED7B</string>
 		</dict>
-		<key>8C69CABD-FA3F-4DFD-91BC-E18D7EF36F23</key>
+		<key>76E02DDF-1773-4699-8B35-638C86A7904A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -831,7 +831,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8C69CABD-FA3F-4DFD-91BC-E18D7EF36F23.xcactivitylog</string>
+			<string>76E02DDF-1773-4699-8B35-638C86A7904A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -848,15 +848,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666013571.52853298</real>
+			<real>666472940.17648494</real>
 			<key>timeStoppedRecording</key>
-			<real>666016720.62887704</real>
+			<real>666472971.27274406</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>8C69CABD-FA3F-4DFD-91BC-E18D7EF36F23</string>
+			<string>76E02DDF-1773-4699-8B35-638C86A7904A</string>
 		</dict>
-		<key>8E5A6FD2-FA09-4276-911E-5D566D8DF24D</key>
+		<key>80DCC44B-06EC-4DE7-9CA1-4179E983A040</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -865,7 +865,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8E5A6FD2-FA09-4276-911E-5D566D8DF24D.xcactivitylog</string>
+			<string>80DCC44B-06EC-4DE7-9CA1-4179E983A040.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -882,15 +882,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011013.11725497</real>
+			<real>666475713.03677297</real>
 			<key>timeStoppedRecording</key>
-			<real>666011178.51427805</real>
+			<real>666475782.38495398</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>8E5A6FD2-FA09-4276-911E-5D566D8DF24D</string>
+			<string>80DCC44B-06EC-4DE7-9CA1-4179E983A040</string>
 		</dict>
-		<key>92A7AB74-3742-42D2-AEAA-A77924822800</key>
+		<key>8196547E-0FE2-4C76-9881-4C727AF25808</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -899,7 +899,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>92A7AB74-3742-42D2-AEAA-A77924822800.xcactivitylog</string>
+			<string>8196547E-0FE2-4C76-9881-4C727AF25808.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -916,15 +916,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011766.78666103</real>
+			<real>666464367.43372095</real>
 			<key>timeStoppedRecording</key>
-			<real>666011794.76683998</real>
+			<real>666465055.33950698</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>92A7AB74-3742-42D2-AEAA-A77924822800</string>
+			<string>8196547E-0FE2-4C76-9881-4C727AF25808</string>
 		</dict>
-		<key>95B02369-C5C1-44C5-956A-786211F7C0B5</key>
+		<key>849D0B3A-A8C1-4DB9-B65F-1FB0DCAF0357</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -933,7 +933,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>95B02369-C5C1-44C5-956A-786211F7C0B5.xcactivitylog</string>
+			<string>849D0B3A-A8C1-4DB9-B65F-1FB0DCAF0357.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -950,15 +950,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011268.62144005</real>
+			<real>666465394.63613498</real>
 			<key>timeStoppedRecording</key>
-			<real>666011412.16497195</real>
+			<real>666465693.45058799</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>95B02369-C5C1-44C5-956A-786211F7C0B5</string>
+			<string>849D0B3A-A8C1-4DB9-B65F-1FB0DCAF0357</string>
 		</dict>
-		<key>99FAEE6A-2BB5-4596-AD02-DCF0888D1D5F</key>
+		<key>8B19B75F-8546-4234-BFCE-EB7D03171DA7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -967,7 +967,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>99FAEE6A-2BB5-4596-AD02-DCF0888D1D5F.xcactivitylog</string>
+			<string>8B19B75F-8546-4234-BFCE-EB7D03171DA7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -984,15 +984,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666033074.05300903</real>
+			<real>666475791.07786906</real>
 			<key>timeStoppedRecording</key>
-			<real>666033229.62299395</real>
+			<real>666475965.08144999</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>99FAEE6A-2BB5-4596-AD02-DCF0888D1D5F</string>
+			<string>8B19B75F-8546-4234-BFCE-EB7D03171DA7</string>
 		</dict>
-		<key>9C6599E7-2557-4B83-A0A3-F8016511DA00</key>
+		<key>8F2F5C72-BF9B-40FE-B423-C5BDEE93A16B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1001,7 +1001,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>9C6599E7-2557-4B83-A0A3-F8016511DA00.xcactivitylog</string>
+			<string>8F2F5C72-BF9B-40FE-B423-C5BDEE93A16B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1018,15 +1018,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666010444.25454295</real>
+			<real>666476673.53495896</real>
 			<key>timeStoppedRecording</key>
-			<real>666010597.22698498</real>
+			<real>666476710.76286197</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>9C6599E7-2557-4B83-A0A3-F8016511DA00</string>
+			<string>8F2F5C72-BF9B-40FE-B423-C5BDEE93A16B</string>
 		</dict>
-		<key>A103C1AA-360D-4D08-BDA8-A363E4F5304F</key>
+		<key>9B6451E4-EAF3-4DE5-8BC0-F1B39E9D6B5C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1035,7 +1035,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A103C1AA-360D-4D08-BDA8-A363E4F5304F.xcactivitylog</string>
+			<string>9B6451E4-EAF3-4DE5-8BC0-F1B39E9D6B5C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1052,15 +1052,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666031485.38969803</real>
+			<real>666468057.82860696</real>
 			<key>timeStoppedRecording</key>
-			<real>666031739.46764302</real>
+			<real>666468361.14781296</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>A103C1AA-360D-4D08-BDA8-A363E4F5304F</string>
+			<string>9B6451E4-EAF3-4DE5-8BC0-F1B39E9D6B5C</string>
 		</dict>
-		<key>A56A8D72-73A6-4BE6-A63D-6BDBB886B3C0</key>
+		<key>9D6D5E98-9597-4AC0-9CB3-F3B34301CE37</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1069,7 +1069,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A56A8D72-73A6-4BE6-A63D-6BDBB886B3C0.xcactivitylog</string>
+			<string>9D6D5E98-9597-4AC0-9CB3-F3B34301CE37.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1086,15 +1086,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011188.89207995</real>
+			<real>666475977.55608499</real>
 			<key>timeStoppedRecording</key>
-			<real>666011261.02010405</real>
+			<real>666476439.73097205</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>A56A8D72-73A6-4BE6-A63D-6BDBB886B3C0</string>
+			<string>9D6D5E98-9597-4AC0-9CB3-F3B34301CE37</string>
 		</dict>
-		<key>ADB7B259-5DEF-4EB4-AC54-A41E2222364E</key>
+		<key>A1B0BE73-F09A-416C-890C-3FBA40309879</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1103,7 +1103,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>ADB7B259-5DEF-4EB4-AC54-A41E2222364E.xcactivitylog</string>
+			<string>A1B0BE73-F09A-416C-890C-3FBA40309879.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1120,15 +1120,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666013544.76035297</real>
+			<real>666462024.57118201</real>
 			<key>timeStoppedRecording</key>
-			<real>666013563.24833703</real>
+			<real>666462074.30916405</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>ADB7B259-5DEF-4EB4-AC54-A41E2222364E</string>
+			<string>A1B0BE73-F09A-416C-890C-3FBA40309879</string>
 		</dict>
-		<key>AF131476-49C7-4782-8394-65D342AFE0A0</key>
+		<key>B14A34DD-B5B1-4DA8-8D5B-80E644ADFD69</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1137,7 +1137,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AF131476-49C7-4782-8394-65D342AFE0A0.xcactivitylog</string>
+			<string>B14A34DD-B5B1-4DA8-8D5B-80E644ADFD69.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1154,15 +1154,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666024485.60623097</real>
+			<real>666474024.20694995</real>
 			<key>timeStoppedRecording</key>
-			<real>666024947.63440394</real>
+			<real>666474155.21308899</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>AF131476-49C7-4782-8394-65D342AFE0A0</string>
+			<string>B14A34DD-B5B1-4DA8-8D5B-80E644ADFD69</string>
 		</dict>
-		<key>C74FC38F-B686-4D67-B5F5-988EEF4D7248</key>
+		<key>B6EC870A-5BAA-4687-A35D-34E8A2B76E88</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1171,7 +1171,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C74FC38F-B686-4D67-B5F5-988EEF4D7248.xcactivitylog</string>
+			<string>B6EC870A-5BAA-4687-A35D-34E8A2B76E88.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1188,15 +1188,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666031147.04330504</real>
+			<real>666464348.682266</real>
 			<key>timeStoppedRecording</key>
-			<real>666031424.643929</real>
+			<real>666464357.05467606</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>C74FC38F-B686-4D67-B5F5-988EEF4D7248</string>
+			<string>B6EC870A-5BAA-4687-A35D-34E8A2B76E88</string>
 		</dict>
-		<key>C82067FC-B226-44F4-B86E-F67C86084007</key>
+		<key>BC8AF155-31C0-45A5-A8F5-0CCA047B4E32</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1205,7 +1205,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C82067FC-B226-44F4-B86E-F67C86084007.xcactivitylog</string>
+			<string>BC8AF155-31C0-45A5-A8F5-0CCA047B4E32.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1222,15 +1222,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666023299.125229</real>
+			<real>666465902.65694702</real>
 			<key>timeStoppedRecording</key>
-			<real>666023504.94539404</real>
+			<real>666465952.51991999</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>C82067FC-B226-44F4-B86E-F67C86084007</string>
+			<string>BC8AF155-31C0-45A5-A8F5-0CCA047B4E32</string>
 		</dict>
-		<key>C8ADC885-BBB2-4728-B539-F464EE1194D1</key>
+		<key>BDB80011-D210-40BC-B702-20927F4DEC64</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1239,7 +1239,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C8ADC885-BBB2-4728-B539-F464EE1194D1.xcactivitylog</string>
+			<string>BDB80011-D210-40BC-B702-20927F4DEC64.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1256,15 +1256,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666012680.49959898</real>
+			<real>666476525.01717198</real>
 			<key>timeStoppedRecording</key>
-			<real>666012725.19857597</real>
+			<real>666476554.39648199</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>C8ADC885-BBB2-4728-B539-F464EE1194D1</string>
+			<string>BDB80011-D210-40BC-B702-20927F4DEC64</string>
 		</dict>
-		<key>CEF1CA12-4589-4DB9-A764-1C6AB1626092</key>
+		<key>C687E57A-A95E-4647-B922-621F28E2A429</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1273,7 +1273,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CEF1CA12-4589-4DB9-A764-1C6AB1626092.xcactivitylog</string>
+			<string>C687E57A-A95E-4647-B922-621F28E2A429.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1290,15 +1290,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666010811.08446705</real>
+			<real>666473469.39663398</real>
 			<key>timeStoppedRecording</key>
-			<real>666010903.95830595</real>
+			<real>666473511.84154606</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>CEF1CA12-4589-4DB9-A764-1C6AB1626092</string>
+			<string>C687E57A-A95E-4647-B922-621F28E2A429</string>
 		</dict>
-		<key>D05070FA-DC0E-4073-A058-90894699BD7B</key>
+		<key>C8A3575B-8CBB-401D-9018-D68191F0D1FD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1307,7 +1307,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D05070FA-DC0E-4073-A058-90894699BD7B.xcactivitylog</string>
+			<string>C8A3575B-8CBB-401D-9018-D68191F0D1FD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1324,15 +1324,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666010976.49148297</real>
+			<real>666465959.66628098</real>
 			<key>timeStoppedRecording</key>
-			<real>666011012.38544202</real>
+			<real>666466990.99394405</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>D05070FA-DC0E-4073-A058-90894699BD7B</string>
+			<string>C8A3575B-8CBB-401D-9018-D68191F0D1FD</string>
 		</dict>
-		<key>D0C740F3-EDBE-420F-81CE-31B9410005E2</key>
+		<key>CB07B010-BD66-45E7-9E00-76DEF10EC9E1</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1341,7 +1341,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D0C740F3-EDBE-420F-81CE-31B9410005E2.xcactivitylog</string>
+			<string>CB07B010-BD66-45E7-9E00-76DEF10EC9E1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1358,15 +1358,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666023516.21021199</real>
+			<real>666471728.47028995</real>
 			<key>timeStoppedRecording</key>
-			<real>666023811.64970303</real>
+			<real>666471810.25374806</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>D0C740F3-EDBE-420F-81CE-31B9410005E2</string>
+			<string>CB07B010-BD66-45E7-9E00-76DEF10EC9E1</string>
 		</dict>
-		<key>D6CCA17E-5578-4A37-99EB-CCEA9567363D</key>
+		<key>CB3BA8A4-2A4E-4C9F-9BCF-281B9EC3855D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1375,7 +1375,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D6CCA17E-5578-4A37-99EB-CCEA9567363D.xcactivitylog</string>
+			<string>CB3BA8A4-2A4E-4C9F-9BCF-281B9EC3855D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1392,15 +1392,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666022758.07708299</real>
+			<real>666472905.30245304</real>
 			<key>timeStoppedRecording</key>
-			<real>666022777.18200195</real>
+			<real>666472930.95938301</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>D6CCA17E-5578-4A37-99EB-CCEA9567363D</string>
+			<string>CB3BA8A4-2A4E-4C9F-9BCF-281B9EC3855D</string>
 		</dict>
-		<key>D89AE8F7-54F0-4387-9480-CE7AD7E87623</key>
+		<key>CF09979E-CEFD-4ACD-AA9C-E0D1B68633E7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1409,7 +1409,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D89AE8F7-54F0-4387-9480-CE7AD7E87623.xcactivitylog</string>
+			<string>CF09979E-CEFD-4ACD-AA9C-E0D1B68633E7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1426,15 +1426,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666032956.90869606</real>
+			<real>666467651.37619495</real>
 			<key>timeStoppedRecording</key>
-			<real>666033057.16313004</real>
+			<real>666467735.52241695</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>D89AE8F7-54F0-4387-9480-CE7AD7E87623</string>
+			<string>CF09979E-CEFD-4ACD-AA9C-E0D1B68633E7</string>
 		</dict>
-		<key>DCFA6A24-695C-41A6-94DF-27433537DD1B</key>
+		<key>CF6C8AE2-BD35-44CF-9B7F-E12310D5456E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1443,7 +1443,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DCFA6A24-695C-41A6-94DF-27433537DD1B.xcactivitylog</string>
+			<string>CF6C8AE2-BD35-44CF-9B7F-E12310D5456E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1460,15 +1460,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666011418.70032704</real>
+			<real>666469721.24873495</real>
 			<key>timeStoppedRecording</key>
-			<real>666011522.51933396</real>
+			<real>666469790.48454201</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>DCFA6A24-695C-41A6-94DF-27433537DD1B</string>
+			<string>CF6C8AE2-BD35-44CF-9B7F-E12310D5456E</string>
 		</dict>
-		<key>DD3FC539-E725-45AC-94FA-183D3C2F8805</key>
+		<key>D0ED7C93-7BC8-42A7-BCB8-912603C6E503</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1477,7 +1477,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DD3FC539-E725-45AC-94FA-183D3C2F8805.xcactivitylog</string>
+			<string>D0ED7C93-7BC8-42A7-BCB8-912603C6E503.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1494,15 +1494,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666038928.06380701</real>
+			<real>666465862.54055595</real>
 			<key>timeStoppedRecording</key>
-			<real>666038946.52349901</real>
+			<real>666465895.87878501</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>DD3FC539-E725-45AC-94FA-183D3C2F8805</string>
+			<string>D0ED7C93-7BC8-42A7-BCB8-912603C6E503</string>
 		</dict>
-		<key>DEBDDE65-5C2C-427A-8757-B2E97E4756AD</key>
+		<key>D1BF3EDD-4FE3-4E74-B2D3-A5DA2FD9845C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1511,7 +1511,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DEBDDE65-5C2C-427A-8757-B2E97E4756AD.xcactivitylog</string>
+			<string>D1BF3EDD-4FE3-4E74-B2D3-A5DA2FD9845C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1528,15 +1528,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666037643.46446705</real>
+			<real>666465065.203058</real>
 			<key>timeStoppedRecording</key>
-			<real>666037766.53164804</real>
+			<real>666465367.29870403</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>DEBDDE65-5C2C-427A-8757-B2E97E4756AD</string>
+			<string>D1BF3EDD-4FE3-4E74-B2D3-A5DA2FD9845C</string>
 		</dict>
-		<key>E2EEC632-FB8C-4087-964E-C5B06EC51470</key>
+		<key>D763D918-1C98-40A7-8F00-178EF2B909AF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1545,7 +1545,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E2EEC632-FB8C-4087-964E-C5B06EC51470.xcactivitylog</string>
+			<string>D763D918-1C98-40A7-8F00-178EF2B909AF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1562,15 +1562,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666010921.64423597</real>
+			<real>666465839.46895099</real>
 			<key>timeStoppedRecording</key>
-			<real>666010974.24521697</real>
+			<real>666465857.20990598</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>E2EEC632-FB8C-4087-964E-C5B06EC51470</string>
+			<string>D763D918-1C98-40A7-8F00-178EF2B909AF</string>
 		</dict>
-		<key>E35527E0-7944-46A8-9D35-1F955CA10435</key>
+		<key>D7C6C32B-E663-4E92-BD23-9B5258EBBEF2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1579,7 +1579,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E35527E0-7944-46A8-9D35-1F955CA10435.xcactivitylog</string>
+			<string>D7C6C32B-E663-4E92-BD23-9B5258EBBEF2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1596,15 +1596,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666012915.265028</real>
+			<real>666472980.30991399</real>
 			<key>timeStoppedRecording</key>
-			<real>666013239.19218898</real>
+			<real>666473045.965487</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>E35527E0-7944-46A8-9D35-1F955CA10435</string>
+			<string>D7C6C32B-E663-4E92-BD23-9B5258EBBEF2</string>
 		</dict>
-		<key>E7ED2ECB-3419-4F35-AB13-69D9D3074A7B</key>
+		<key>DB8B7BB3-AE4F-459D-80F9-0BF47D35D7D5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1613,7 +1613,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E7ED2ECB-3419-4F35-AB13-69D9D3074A7B.xcactivitylog</string>
+			<string>DB8B7BB3-AE4F-459D-80F9-0BF47D35D7D5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1630,15 +1630,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666022397.86258495</real>
+			<real>666467743.97094798</real>
 			<key>timeStoppedRecording</key>
-			<real>666022501.95828998</real>
+			<real>666468047.89256799</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>E7ED2ECB-3419-4F35-AB13-69D9D3074A7B</string>
+			<string>DB8B7BB3-AE4F-459D-80F9-0BF47D35D7D5</string>
 		</dict>
-		<key>E83EA4E3-6C48-4C3E-9B03-F736140607DF</key>
+		<key>E39FDDDC-DB46-4DCA-B7DA-07E46EF900E8</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1647,7 +1647,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E83EA4E3-6C48-4C3E-9B03-F736140607DF.xcactivitylog</string>
+			<string>E39FDDDC-DB46-4DCA-B7DA-07E46EF900E8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1664,15 +1664,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666022503.20843399</real>
+			<real>666463856.64491999</real>
 			<key>timeStoppedRecording</key>
-			<real>666022553.60467696</real>
+			<real>666464338.74400198</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>E83EA4E3-6C48-4C3E-9B03-F736140607DF</string>
+			<string>E39FDDDC-DB46-4DCA-B7DA-07E46EF900E8</string>
 		</dict>
-		<key>EB5ED93F-BAE1-4DDD-A3DE-F5863A137E0E</key>
+		<key>EF5EA38A-4F4E-4D75-9F1E-AC3C89EC08B4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1681,7 +1681,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>EB5ED93F-BAE1-4DDD-A3DE-F5863A137E0E.xcactivitylog</string>
+			<string>EF5EA38A-4F4E-4D75-9F1E-AC3C89EC08B4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1698,15 +1698,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666013498.50159097</real>
+			<real>666474657.35092103</real>
 			<key>timeStoppedRecording</key>
-			<real>666013537.99502695</real>
+			<real>666474755.60963798</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>EB5ED93F-BAE1-4DDD-A3DE-F5863A137E0E</string>
+			<string>EF5EA38A-4F4E-4D75-9F1E-AC3C89EC08B4</string>
 		</dict>
-		<key>EC84F046-D786-4E87-9585-B29EEB6EC15F</key>
+		<key>F0F56429-3C87-4846-9628-7F7DAC352F3C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1715,7 +1715,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>EC84F046-D786-4E87-9585-B29EEB6EC15F.xcactivitylog</string>
+			<string>F0F56429-3C87-4846-9628-7F7DAC352F3C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1732,15 +1732,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666017168.11477995</real>
+			<real>666476619.49157298</real>
 			<key>timeStoppedRecording</key>
-			<real>666017482.70938098</real>
+			<real>666476643.09284496</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>EC84F046-D786-4E87-9585-B29EEB6EC15F</string>
+			<string>F0F56429-3C87-4846-9628-7F7DAC352F3C</string>
 		</dict>
-		<key>F5B987DC-6344-41D3-A748-EC5D5501CBD5</key>
+		<key>F9D3B6A8-1EC4-4D81-BD6B-1D24C99D0CA5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1749,7 +1749,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F5B987DC-6344-41D3-A748-EC5D5501CBD5.xcactivitylog</string>
+			<string>F9D3B6A8-1EC4-4D81-BD6B-1D24C99D0CA5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1766,15 +1766,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666037778.60655296</real>
+			<real>666471228.09051895</real>
 			<key>timeStoppedRecording</key>
-			<real>666038339.40493</real>
+			<real>666471721.574242</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>F5B987DC-6344-41D3-A748-EC5D5501CBD5</string>
+			<string>F9D3B6A8-1EC4-4D81-BD6B-1D24C99D0CA5</string>
 		</dict>
-		<key>F78153AB-BFE3-4C1C-BA62-8389529FD5F4</key>
+		<key>FC40DD8E-0587-439E-8469-CA3B3325AB0D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1783,7 +1783,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F78153AB-BFE3-4C1C-BA62-8389529FD5F4.xcactivitylog</string>
+			<string>FC40DD8E-0587-439E-8469-CA3B3325AB0D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1800,15 +1800,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666031445.02154005</real>
+			<real>666471811.24084103</real>
 			<key>timeStoppedRecording</key>
-			<real>666031479.19935596</real>
+			<real>666472600.51471603</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>F78153AB-BFE3-4C1C-BA62-8389529FD5F4</string>
+			<string>FC40DD8E-0587-439E-8469-CA3B3325AB0D</string>
 		</dict>
-		<key>F88B229C-234A-41A1-893E-7774E001D62A</key>
+		<key>FCEECFA9-8F86-473A-8B4A-D95BC2500C36</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1817,7 +1817,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F88B229C-234A-41A1-893E-7774E001D62A.xcactivitylog</string>
+			<string>FCEECFA9-8F86-473A-8B4A-D95BC2500C36.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1834,15 +1834,15 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666021842.059829</real>
+			<real>666466999.14791703</real>
 			<key>timeStoppedRecording</key>
-			<real>666022345.31938303</real>
+			<real>666467287.49031198</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>F88B229C-234A-41A1-893E-7774E001D62A</string>
+			<string>FCEECFA9-8F86-473A-8B4A-D95BC2500C36</string>
 		</dict>
-		<key>FC1AEE53-2144-41C7-BCB8-681E8F39EABF</key>
+		<key>FFA19A91-DC98-4726-9DE4-0DDA0EB6AC9F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1851,7 +1851,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>FC1AEE53-2144-41C7-BCB8-681E8F39EABF.xcactivitylog</string>
+			<string>FFA19A91-DC98-4726-9DE4-0DDA0EB6AC9F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1868,47 +1868,13 @@
 			<key>signature</key>
 			<string>Run SetGame</string>
 			<key>timeStartedRecording</key>
-			<real>666030945.67615199</real>
+			<real>666476649.650895</real>
 			<key>timeStoppedRecording</key>
-			<real>666031058.83212495</real>
+			<real>666476667.79738903</real>
 			<key>title</key>
 			<string>Run SetGame</string>
 			<key>uniqueIdentifier</key>
-			<string>FC1AEE53-2144-41C7-BCB8-681E8F39EABF</string>
-		</dict>
-		<key>FE73611A-7BD2-46A9-90E9-6B9175D242E2</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FE73611A-7BD2-46A9-90E9-6B9175D242E2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>SetGame project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SetGame</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run SetGame</string>
-			<key>timeStartedRecording</key>
-			<real>666025350.38946903</real>
-			<key>timeStoppedRecording</key>
-			<real>666025391.30192196</real>
-			<key>title</key>
-			<string>Run SetGame</string>
-			<key>uniqueIdentifier</key>
-			<string>FE73611A-7BD2-46A9-90E9-6B9175D242E2</string>
+			<string>FFA19A91-DC98-4726-9DE4-0DDA0EB6AC9F</string>
 		</dict>
 	</dict>
 </dict>

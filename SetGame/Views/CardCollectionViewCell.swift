@@ -9,40 +9,51 @@ import UIKit
 
 class CardCollectionViewCell: UICollectionViewCell {
     
+    static var reuseIdentifier = "CardCollectionViewCell"
     var clickAction: (() -> Void)?
+
+    var attrTitle: NSAttributedString? = nil {
+        didSet { attrTitleChanged() }
+    }
     
-    private(set) lazy var cardButton: UIButton = {
+    var blinkColor: UIColor? = nil {
+        didSet { blinkColorChanged() }
+    }
+    
+    var borderColor: UIColor? = nil {
+        didSet { borderColorChanged() }
+    }
+    
+    private lazy var cardButton: UIButton = {
         let button = UIButton(type: .system)
         
         button.layer.cornerRadius = 10
         button.layer.borderWidth = 3
         button.backgroundColor = .white
-        button.layer.borderColor = UIColor.gray.cgColor
         
-       // button.titleLabel?.isHidden = true
         button.titleLabel?.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
         button.titleLabel?.lineBreakMode = .byWordWrapping
         button.titleLabel?.textAlignment = .center
         
-        button.addAction(for: .touchUpInside, { [weak self] in
-            self?.clickAction?()
+        button.addAction(for: .touchUpInside, { [unowned self] in
+            self.clickAction?()
         })
-        
         self.addSubview(button)
         return button
     }()
     
-    convenience init(image: UIImage?) {
-        self.init(frame: .zero)
-        
-        
-        //self.cardButton.setImage(image, for: .normal)
-    }
+    private let animationLayer: CABasicAnimation = {
+        let animation: CABasicAnimation = CABasicAnimation(keyPath: "borderColor")
+        animation.toValue = UIColor.gray.cgColor
+        animation.duration = 0.2
+        animation.repeatCount = 10
+        animation.autoreverses = true
+        return animation
+    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        //self.backgroundColor = .white
-        
+        backgroundColor = .clear
         cardButton.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(cardButton)
         setupContraints()
@@ -55,30 +66,34 @@ class CardCollectionViewCell: UICollectionViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         
-        print("prepareForReuse =")
-        
-       // self.cardButton.titleLabel?.isHidden = true
-        self.cardButton.setAttributedTitle(nil, for: .normal)
-        self.clickAction = nil
     }
     
-    override func removeFromSuperview() {
-        super.removeFromSuperview()
-        
-        self.cardButton.setAttributedTitle(nil, for: .normal)
-        self.cardButton.layer.borderColor = nil
+    private func borderColorChanged() {
+        self.cardButton.layer.borderColor = self.borderColor?.cgColor
+    }
+    
+    private func blinkColorChanged() {
+        DispatchQueue.main.async { [unowned self] in
+            self.cardButton.layer.removeAllAnimations()
+        }
+        guard let blinkColor = blinkColor else { return }
+        animationLayer.fromValue = blinkColor.cgColor
+
+        DispatchQueue.main.async { [unowned self] in
+            self.cardButton.layer.add(self.animationLayer, forKey: "")
+        }
+    }
+    
+    private func attrTitleChanged() {
+        self.cardButton.setAttributedTitle(attrTitle, for: .normal)
     }
     
     private func setupContraints() {
         
         let propertyDictionary = propertyDictionary
         
-        print("1", propertyDictionary)
-        
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[cardButton]-0-|", options: [], metrics: nil, views: propertyDictionary))
         
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[cardButton]-0-|", options: [], metrics: nil, views: propertyDictionary))
-        
-        print(propertyDictionary)
     }
 }

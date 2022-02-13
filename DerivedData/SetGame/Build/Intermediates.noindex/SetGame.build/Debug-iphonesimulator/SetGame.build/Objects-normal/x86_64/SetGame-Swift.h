@@ -229,15 +229,14 @@ SWIFT_CLASS("_TtC7SetGame22CardCollectionViewCell")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)prepareForReuse;
-- (void)removeFromSuperview;
 @end
 
 @protocol UIViewControllerTransitionCoordinator;
 @class NSString;
 @class NSBundle;
 
-SWIFT_CLASS("_TtC7SetGame14MainController")
-@interface MainController : UIViewController
+SWIFT_CLASS("_TtC7SetGame14MainActiveView")
+@interface MainActiveView : UIViewController
 - (void)loadView;
 - (void)viewDidLoad;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
@@ -250,16 +249,15 @@ SWIFT_CLASS("_TtC7SetGame14MainController")
 @class UICollectionViewLayout;
 @class NSIndexPath;
 
-@interface MainController (SWIFT_EXTENSION(SetGame)) <UICollectionViewDelegateFlowLayout>
+@interface MainActiveView (SWIFT_EXTENSION(SetGame)) <UICollectionViewDelegateFlowLayout>
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
-
-SWIFT_CLASS("_TtC7SetGame8MainView")
-@interface MainView : UIView
+SWIFT_CLASS("_TtC7SetGame15MainPassiveView")
+@interface MainPassiveView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
