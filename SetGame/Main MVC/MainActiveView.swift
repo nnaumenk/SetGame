@@ -41,7 +41,8 @@ final class MainActiveView: UIViewController {
         
         myPassiveView.cardCollectionView.contentInset = UIEdgeInsets(top: VSpace, left: HSpace, bottom: VSpace, right: HSpace)
         
-        myViewModel.applySnapshot()
+        print("didlayout")
+        //myViewModel.applySnapshot()
     }
     
     
@@ -58,7 +59,9 @@ final class MainActiveView: UIViewController {
                                 
                 self.myViewModel.cellClick(index: index)
             }
-            cell.attrTitle = self.myViewModel.getAttrTitle(for: card)
+            //cell.attrTitle = self.myViewModel.getAttrTitle(for: card)
+            //card.
+            cell.shapeView = ShapeView(shapeType: card.optionA.rawValue, shapeView: card.optionB.rawValue, shapeAmount: card.optionC.rawValue, shapeColor: card.optionD.rawValue)
             
             switch card.selectionStatus {
             case .none: cell.borderColor = nil
@@ -92,7 +95,7 @@ final class MainActiveView: UIViewController {
         myViewModel.$scorePoints
             .map { String($0) }
             .receive(on: DispatchQueue.main)
-            .assign(to: \.text, on: myPassiveView.scoreLabel)
+            .assign(to: \.text, on: myPassiveView.scoreCountLabel)
             .store(in: &anyCancellable)
     }
     

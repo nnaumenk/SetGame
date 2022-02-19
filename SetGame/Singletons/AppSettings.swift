@@ -21,6 +21,8 @@ struct AppSettings {
     let mismatchScore = -20
     let matchScore = 10
     
+    let cardExpectedRatio = 1.4
+    
     static let shared = AppSettings()
     private init() {}
 }

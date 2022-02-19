@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7829579727B29E8600F7A13D /* CollectionCardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829579627B29E8600F7A13D /* CollectionCardElement.swift */; };
 		7829579927B2EC8700F7A13D /* CollectionHashableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829579827B2EC8700F7A13D /* CollectionHashableElement.swift */; };
+		783A0FE227BE785200C63EEF /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A0FE127BE785100C63EEF /* ShapeView.swift */; };
 		784F765227A6CDCA000AEC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F765127A6CDCA000AEC83 /* AppDelegate.swift */; };
 		784F765427A6CDCA000AEC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F765327A6CDCA000AEC83 /* SceneDelegate.swift */; };
 		784F765B27A6CDCF000AEC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784F765A27A6CDCF000AEC83 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		7829579627B29E8600F7A13D /* CollectionCardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCardElement.swift; sourceTree = "<group>"; };
 		7829579827B2EC8700F7A13D /* CollectionHashableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHashableElement.swift; sourceTree = "<group>"; };
+		783A0FE127BE785100C63EEF /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		784F764E27A6CDCA000AEC83 /* SetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784F765127A6CDCA000AEC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		784F765327A6CDCA000AEC83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				784F767827A845DB000AEC83 /* CardCollectionViewCell.swift */,
+				783A0FE127BE785100C63EEF /* ShapeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				784F767127A6D32D000AEC83 /* CardModel.swift in Sources */,
 				784F767527A6DDED000AEC83 /* DeckModel.swift in Sources */,
 				784F766C27A6D097000AEC83 /* NSObject.swift in Sources */,
+				783A0FE227BE785200C63EEF /* ShapeView.swift in Sources */,
 				78C5771827B6DD2B00AD98C5 /* AppSettings.swift in Sources */,
 				784F766727A6CE5E000AEC83 /* MainActiveView.swift in Sources */,
 				784F765427A6CDCA000AEC83 /* SceneDelegate.swift in Sources */,

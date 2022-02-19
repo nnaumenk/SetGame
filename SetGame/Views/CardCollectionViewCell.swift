@@ -12,8 +12,12 @@ class CardCollectionViewCell: UICollectionViewCell {
     static var reuseIdentifier = "CardCollectionViewCell"
     var clickAction: (() -> Void)?
 
-    var attrTitle: NSAttributedString? = nil {
-        didSet { attrTitleChanged() }
+//    var attrTitle: NSAttributedString? = nil {
+//        didSet { attrTitleChanged() }
+//    }
+    
+    var shapeView: UIView? = nil {
+        didSet { oldValue?.removeFromSuperview(); shapeViewChanged() }
     }
     
     var blinkColor: UIColor? = nil {
@@ -29,11 +33,13 @@ class CardCollectionViewCell: UICollectionViewCell {
         
         button.layer.cornerRadius = 10
         button.layer.borderWidth = 3
-        button.backgroundColor = .white
+        button.backgroundColor = .gray
         
-        button.titleLabel?.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
-        button.titleLabel?.lineBreakMode = .byWordWrapping
-        button.titleLabel?.textAlignment = .center
+//        button.titleLabel?.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
+//        button.titleLabel?.lineBreakMode = .byWordWrapping
+//        button.titleLabel?.textAlignment = .center
+        
+        //button.imageView =
         
         button.addAction(for: .touchUpInside, { [unowned self] in
             self.clickAction?()
@@ -84,10 +90,20 @@ class CardCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    private func attrTitleChanged() {
-        self.cardButton.setAttributedTitle(attrTitle, for: .normal)
-    }
+//    private func attrTitleChanged() {
+//        self.cardButton.setAttributedTitle(attrTitle, for: .normal)
+//    }
     
+    private func shapeViewChanged() {
+        guard let shapeView = shapeView else { return }
+        self.cardButton.addSubview(shapeView)
+        shapeView.translatesAutoresizingMaskIntoConstraints = false
+        shapeView.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+        shapeView.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
+        shapeView.widthAnchor.constraint(equalTo: self.widthAnchor).isActive = true
+        shapeView.heightAnchor.constraint(equalTo: self.heightAnchor).isActive = true
+    }
+
     private func setupContraints() {
         
         let propertyDictionary = propertyDictionary

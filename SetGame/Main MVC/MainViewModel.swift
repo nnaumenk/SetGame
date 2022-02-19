@@ -24,13 +24,14 @@ final class MainViewModel {
     
     init() {
         $setGameModel
-            .debounce(for: .milliseconds(10), scheduler: DispatchQueue.main)
+            .debounce(for: .milliseconds(50), scheduler: DispatchQueue.main)
             .receive(on: DispatchQueue.main)
             .sink { [unowned self] value in
                 self.numberOfDeckCards = self.setGameModel.deck.cards.count
                 self.scorePoints = self.setGameModel.score
                 self.isDealCardButtonActive = self.getDealCardButtonCondition()
-                self.applySnapshot()
+                self.applySnapshot(animatingDifferences: false)
+                print("apply")
             }
             .store(in: &anyCancellable)
         
@@ -124,8 +125,10 @@ extension MainViewModel {
             ]
         case .caseB:
             return [
-                NSAttributedString.Key.foregroundColor: color.withAlphaComponent(0.35),
-                NSAttributedString.Key.strokeWidth: -1
+                
+                NSAttributedString.Key.strikethroughColor: UIColor.magenta
+                //NSAttributedString.Key.foregroundColor: color.withAlphaComponent(0.35),
+                //NSAttributedString.Key.strokeWidth: -1
             ]
         case .caseC:
             return [

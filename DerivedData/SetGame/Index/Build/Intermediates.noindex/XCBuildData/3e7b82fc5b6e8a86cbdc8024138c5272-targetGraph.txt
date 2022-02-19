@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-SetGame in SetGame, no dependencies
-SetGame in SetGame, no dependencies
