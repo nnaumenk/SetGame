@@ -56,46 +56,38 @@ class ShapeView: UIView {
     }
     
     override func draw(_ rect: CGRect) {
-
-//        guard var shapePaths = getShapes() else { return }
-//        guard shapePaths = setShapeView(shapePaths: shapePaths) else { return }
-//        guard shapePaths = setShapeColor(shapePaths: shapePaths) else { return }
-        
-        guard let shapePaths = getShapes() else { return }
-        setShapeView(shapePaths: shapePaths)
-        setShapeColor(shapePaths: shapePaths)
-        
-    }
-    
-    private func getShapes() -> [UIBezierPath]? {
-        
-        let shapeFunc: (CGPoint, CGFloat) -> UIBezierPath
-        var shapePaths: [UIBezierPath] = []
-        
-        switch shapeType {
-        case .triangle: shapeFunc = getTriangle
-        case .square: shapeFunc = getSquare
-        case .circle: shapeFunc = getCircle
-        case .undefined: return nil
-        }
+        let lineSize = shapeLineSize
         
         for shapeYPosition in shapeYPositions {
-            let path = shapeFunc(CGPoint(x: center.x, y: shapeYPosition), shapeLineSize)
-            shapePaths.append(path)
+            guard let outlineShape = getOutlineShape(position: CGPoint(x: self.center.x, y: shapeYPosition), lineSize: lineSize) else { continue }
+            let context = UIGraphicsGetCurrentContext()
+            context?.saveGState()
+            guard let innerShape = getInnerShape(for: outlineShape) else { continue }
+            context?.restoreGState()
+            
+            setShapeColor(outlineShape: outlineShape, innerShape: innerShape)
         }
-        return shapePaths
     }
     
-    private func setShapeView(shapePaths: [UIBezierPath]) {
+    private func getOutlineShape(position: CGPoint, lineSize: CGFloat) -> UIBezierPath? {
+        switch shapeType {
+        case .triangle: return getTriangle(at: position, lineSize: lineSize)
+        case .square: return getSquare(at: position, lineSize: lineSize)
+        case .circle: return getCircle(at: position, diameter: lineSize)
+        case .undefined: return nil
+        }
+    }
+    
+    private func getInnerShape(for outlineShape: UIBezierPath) -> UIBezierPath? {
         switch shapeView {
-        case .solid: addSolidShape(shapePaths: shapePaths)
-        case .strip: addStripShape(shapePaths: shapePaths)
-        case .outline: return
-        case .undefined: return
+        case .solid: return addSolidShape(shape: outlineShape)
+        case .strip: return addStripShape(shape: outlineShape)
+        case .outline: return UIBezierPath()
+        case .undefined: return nil
         }
     }
     
-    private func setShapeColor(shapePaths: [UIBezierPath]) {
+    private func setShapeColor(outlineShape: UIBezierPath, innerShape: UIBezierPath) {
         
         switch shapeColor {
         case .red:
@@ -108,106 +100,68 @@ class ShapeView: UIView {
             return
         }
         
-        for i in shapePaths.indices {
-            shapePaths[i].stroke()
-        }
+        outlineShape.stroke()
+        innerShape.stroke()
     }
 }
 
 
 extension ShapeView {
     
-    private func addSolidShape(shapePaths: [UIBezierPath]) {
+    private func addSolidShape(shape: UIBezierPath) -> UIBezierPath {
         let context = UIGraphicsGetCurrentContext()
+        context?.saveGState()
         
-        for path in shapePaths {
-            //context?.saveGState()
-            path.addClip()
-            for delta in stride(from: 0, to: shapeLineSize, by: 1) {
-                let x1 = path.bounds.minX
-                let y1 = path.bounds.minY + delta
-                let x2 = path.bounds.maxX
-                let y2 = path.bounds.minY + delta
-                
-                path.move(to: CGPoint(x: x1, y: y1))
-                path.addLine(to: CGPoint(x: x2, y: y2))
-            }
+        let innerShapeView = UIBezierPath()
+        shape.addClip()
+            
+        for delta in stride(from: 0, through: shapeLineSize, by: 1) {
+            let x1 = shape.bounds.minX
+            let y1 = shape.bounds.minY + delta
+            let x2 = shape.bounds.maxX
+            let y2 = shape.bounds.minY + delta
+            
+            shape.move(to: CGPoint(x: x1, y: y1))
+            shape.addLine(to: CGPoint(x: x2, y: y2))
         }
+        context?.restoreGState()
+        return innerShapeView
     }
+//        shape.addClip()
+//            for delta in stride(from: 0, to: shapeLineSize, by: 1) {
+//                let x1 = shape.bounds.minX
+//                let y1 = shape.bounds.minY + delta
+//                let x2 = shape.bounds.maxX
+//                let y2 = shape.bounds.minY + delta
+//
+//                shape.move(to: CGPoint(x: x1, y: y1))
+//                shape.addLine(to: CGPoint(x: x2, y: y2))
+////            }
+//        }
+//    }
     
-    //private func addOutlineShape()
-    
-    private func addStripShape(shapePaths: [UIBezierPath]) {
+    private func addStripShape(shape: UIBezierPath) -> UIBezierPath {
         let context = UIGraphicsGetCurrentContext()
+       // context?.saveGState()
         
-        //shapePaths.forEach( { $0.addClip() } )
-        
-        for path in shapePaths {
-           // context?.saveGState()
-           // path.addClip()
+        let innerShapeView = UIBezierPath()
+        //shape.addClip()
             
-            for delta in stride(from: 0, through: shapeLineSize, by: shapeStepSize) {
-                let x1 = path.bounds.minX
-                let y1 = path.bounds.minY + delta
-                let x2 = path.bounds.minX + delta
-                let y2 = path.bounds.minY
-                
-                let bezier = UIBezierPath()
-                //path.lineWidth = 1
-                
-                bezier.move(to: CGPoint(x: x1, y: y1))
-                bezier.addLine(to: CGPoint(x: x2, y: y2))
-                
-                bezier.move(to: CGPoint(x: x1 + shapeLineSize, y: y1))
-                bezier.addLine(to: CGPoint(x: x2, y: y2 + shapeLineSize))
-                UIColor.yellow.setStroke()
-                bezier.stroke()
-                //context?.restoreGState()
-            }
-            //context?.restoreGState()
+        for delta in stride(from: 0, through: shapeLineSize, by: shapeStepSize) {
+            let x1 = shape.bounds.minX
+            let y1 = shape.bounds.minY + delta
+            let x2 = shape.bounds.minX + delta
+            let y2 = shape.bounds.minY
+            
+            innerShapeView.move(to: CGPoint(x: x1, y: y1))
+            innerShapeView.addLine(to: CGPoint(x: x2, y: y2))
+            innerShapeView.move(to: CGPoint(x: x1 + shapeLineSize, y: y1))
+            innerShapeView.addLine(to: CGPoint(x: x2, y: y2 + shapeLineSize))
         }
+       // context?.restoreGState()
+        return innerShapeView
     }
-    
-    
-            //path.
-            //path.addClip()
-           // shapeMaxSize
-            
-//            for y in stride(from: path.bounds.minY + 3, to: path.bounds.maxY - 3, by: 3) {
-//                bezier.move(to: CGPoint(x: path.bounds.minX, y: y))
-//                bezier.addLine(to: CGPoint(x: path.bounds.maxX, y: y))
-//                //bezier.
-//                UIColor.yellow.setStroke()
-//                bezier.stroke()
-//
-//            }
-//
-//            func rotate(path: UIBezierPath, degree: CGFloat) {
-//                let bounds: CGRect = path.cgPath.boundingBox
-//                let center = CGPoint(x: bounds.midX, y: bounds.midY)
-//
-//                let radians = degree / 180.0 * .pi
-//                var transform: CGAffineTransform = .identity
-//                transform = transform.translatedBy(x: center.x, y: center.y)
-//                transform = transform.rotated(by: radians)
-//                transform = transform.translatedBy(x: -center.x, y: -center.y)
-//                path.apply(transform)
-//            }
-//            for y in Int(path.bounds.minY)..<Int(path.bounds.maxY) {
-//
-//                bezier.move(to: CGPoint(x: path.bounds.minX, y: y * 5))
-//                bezier.addLine(to: CGPoint(x: path.bounds.maxX, y: y * 5))
-//                //bezier.
-//                UIColor.yellow.setStroke()
-//                bezier.stroke()
-//            }
-            //bezier.l
-                //.}
-        
-        
-        
-        //let center = SizeManager.shapeMaxSize
-    }
+}
     
 //    required init
     
