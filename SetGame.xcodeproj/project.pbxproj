@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7825FFFB27C1799D007EDC02 /* ShapeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7825FFFA27C1799C007EDC02 /* ShapeButton.swift */; };
 		7829579727B29E8600F7A13D /* CollectionCardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829579627B29E8600F7A13D /* CollectionCardElement.swift */; };
 		7829579927B2EC8700F7A13D /* CollectionHashableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829579827B2EC8700F7A13D /* CollectionHashableElement.swift */; };
 		783A0FE227BE785200C63EEF /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A0FE127BE785100C63EEF /* ShapeView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7825FFFA27C1799C007EDC02 /* ShapeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeButton.swift; sourceTree = "<group>"; };
 		7829579627B29E8600F7A13D /* CollectionCardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCardElement.swift; sourceTree = "<group>"; };
 		7829579827B2EC8700F7A13D /* CollectionHashableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHashableElement.swift; sourceTree = "<group>"; };
 		783A0FE127BE785100C63EEF /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
@@ -86,7 +88,7 @@
 				784F767A27A845ED000AEC83 /* Views */,
 				784F766F27A6D30A000AEC83 /* Struct models */,
 				784F766A27A6D072000AEC83 /* Extensions */,
-				784F766527A6CE33000AEC83 /* Main MVC */,
+				784F766527A6CE33000AEC83 /* Main MVVM */,
 				784F765A27A6CDCF000AEC83 /* Assets.xcassets */,
 				784F765127A6CDCA000AEC83 /* AppDelegate.swift */,
 				784F765327A6CDCA000AEC83 /* SceneDelegate.swift */,
@@ -96,14 +98,14 @@
 			path = SetGame;
 			sourceTree = "<group>";
 		};
-		784F766527A6CE33000AEC83 /* Main MVC */ = {
+		784F766527A6CE33000AEC83 /* Main MVVM */ = {
 			isa = PBXGroup;
 			children = (
 				784F766D27A6D133000AEC83 /* MainViewModel.swift */,
 				784F766627A6CE5E000AEC83 /* MainActiveView.swift */,
 				784F766827A6D035000AEC83 /* MainPassiveView.swift */,
 			);
-			path = "Main MVC";
+			path = "Main MVVM";
 			sourceTree = "<group>";
 		};
 		784F766A27A6D072000AEC83 /* Extensions */ = {
@@ -134,6 +136,7 @@
 			children = (
 				784F767827A845DB000AEC83 /* CardCollectionViewCell.swift */,
 				783A0FE127BE785100C63EEF /* ShapeView.swift */,
+				7825FFFA27C1799C007EDC02 /* ShapeButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				784F765227A6CDCA000AEC83 /* AppDelegate.swift in Sources */,
+				7825FFFB27C1799D007EDC02 /* ShapeButton.swift in Sources */,
 				7829579727B29E8600F7A13D /* CollectionCardElement.swift in Sources */,
 				784F767727A6F466000AEC83 /* Array.swift in Sources */,
 				78804AB427B69BD5008FA926 /* SetGameModel.swift in Sources */,

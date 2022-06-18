@@ -28,6 +28,7 @@ struct Card: Hashable {
     private(set) var optionC: CardOption
     private(set) var optionD: CardOption
 
+    var isFaceUp = false
     var selectionStatus: CardStatus = .none
     var blinkStatus: CardStatus = .none {
         didSet { if blinkStatus == .match { blinkMatchCounter += 1 }}

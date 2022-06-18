@@ -10,7 +10,7 @@ import Foundation
 struct SetGame {
     
     private(set) var deck: Deck!
-    private(set) var cardsOnTable: [Card] = []
+     var cardsOnTable: [Card] = []//setGameModel.cardsOnTable[index].isFaceUp
     private(set) var score = 100
     
     private var currentShowSetArray: [Set<Int>] = []
@@ -200,6 +200,8 @@ extension SetGame {
                     let card1 = cardsOnTable[index1]
                     let card2 = cardsOnTable[index2]
                     let card3 = cardsOnTable[index3]
+                    
+                    guard ([card1, card2, card3].allSatisfy { $0.selectionStatus != .match }) else { continue }
                     guard [card1, card2, card3].isSet() else { continue }
                     
                     setArray.append([index1, index2, index3])

@@ -10,42 +10,18 @@ import UIKit
 class CardCollectionViewCell: UICollectionViewCell {
     
     static var reuseIdentifier = "CardCollectionViewCell"
-    var clickAction: (() -> Void)?
-
-//    var attrTitle: NSAttributedString? = nil {
-//        didSet { attrTitleChanged() }
-//    }
     
-    var shapeView: UIView? = nil {
-        didSet { oldValue?.removeFromSuperview(); shapeViewChanged() }
-    }
+    var shapeView: ShapeView? { didSet { shapeViewChanged(oldValue) } }
     
-    var blinkColor: UIColor? = nil {
-        didSet { blinkColorChanged() }
-    }
+    var blinkColor: UIColor? { didSet { blinkColorChanged() } }
     
-    var borderColor: UIColor? = nil {
-        didSet { borderColorChanged() }
-    }
+    var borderColor: UIColor? { didSet { borderColorChanged() } }
     
-    private lazy var cardButton: UIButton = {
-        let button = UIButton(type: .system)
-        
-        button.layer.cornerRadius = 10
-        button.layer.borderWidth = 3
-        button.backgroundColor = .gray
-        
-//        button.titleLabel?.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
-//        button.titleLabel?.lineBreakMode = .byWordWrapping
-//        button.titleLabel?.textAlignment = .center
-        
-        //button.imageView =
-        
-        button.addAction(for: .touchUpInside, { [unowned self] in
-            self.clickAction?()
-        })
-        self.addSubview(button)
-        return button
+    private lazy var view: UIView = {
+        let view = UIView()
+        view.backgroundColor = .clear
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
     }()
     
     private let animationLayer: CABasicAnimation = {
@@ -60,8 +36,8 @@ class CardCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .clear
-        cardButton.translatesAutoresizingMaskIntoConstraints = false
-        self.addSubview(cardButton)
+        
+        addSubview(view)
         setupContraints()
     }
     
@@ -74,42 +50,39 @@ class CardCollectionViewCell: UICollectionViewCell {
         
     }
     
+    private func shapeViewChanged(_ oldValue: ShapeView?) {
+        oldValue?.removeFromSuperview()
+        guard let shapeView = shapeView else { return }
+        view.addSubview(shapeView)
+    }
+    
     private func borderColorChanged() {
-        self.cardButton.layer.borderColor = self.borderColor?.cgColor
+        shapeView?.layer.borderColor = self.borderColor?.cgColor
     }
     
     private func blinkColorChanged() {
-        DispatchQueue.main.async { [unowned self] in
-            self.cardButton.layer.removeAllAnimations()
+        guard let shapeView = shapeView else { return }
+        
+        DispatchQueue.main.async {
+            shapeView.layer.removeAllAnimations()
         }
         guard let blinkColor = blinkColor else { return }
         animationLayer.fromValue = blinkColor.cgColor
 
-        DispatchQueue.main.async { [unowned self] in
-            self.cardButton.layer.add(self.animationLayer, forKey: "")
+        DispatchQueue.main.async {
+            shapeView.layer.add(self.animationLayer, forKey: "")
         }
     }
     
-//    private func attrTitleChanged() {
-//        self.cardButton.setAttributedTitle(attrTitle, for: .normal)
-//    }
-    
-    private func shapeViewChanged() {
-        guard let shapeView = shapeView else { return }
-        self.cardButton.addSubview(shapeView)
-        shapeView.translatesAutoresizingMaskIntoConstraints = false
-        shapeView.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
-        shapeView.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
-        shapeView.widthAnchor.constraint(equalTo: self.widthAnchor).isActive = true
-        shapeView.heightAnchor.constraint(equalTo: self.heightAnchor).isActive = true
-    }
-
     private func setupContraints() {
         
         let propertyDictionary = propertyDictionary
         
-        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[cardButton]-0-|", options: [], metrics: nil, views: propertyDictionary))
+        let constraints = [
+            NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[view]-0-|", options: [], metrics: nil, views: propertyDictionary),
+            NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[view]-0-|", options: [], metrics: nil, views: propertyDictionary)
+        ].flatMap { $0 }
         
-        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[cardButton]-0-|", options: [], metrics: nil, views: propertyDictionary))
+        constraints.forEach { $0.isActive = true }
     }
 }

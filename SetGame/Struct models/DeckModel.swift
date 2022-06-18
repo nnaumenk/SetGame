@@ -16,7 +16,12 @@ struct Deck {
     }
     
     mutating func draw(numberOfCards: Int) -> [Card] {
-        self.cards.removeFirstN(numberOfCards)
+        var newCards = cards.removeFirstN(numberOfCards)
+        
+        for index in newCards.indices {
+            newCards[index].isFaceUp = true
+        }
+        return newCards
     }
     
     mutating private func setupDeck(toShuffle: Bool) {

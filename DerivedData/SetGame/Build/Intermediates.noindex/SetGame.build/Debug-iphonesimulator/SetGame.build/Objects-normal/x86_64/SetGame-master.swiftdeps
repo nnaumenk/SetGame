@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1655537651, 363829135]
+build_end_time: [1655537662, 431326866]
+inputs:
+  "/Users/nazar/SetGame/SetGame/AppDelegate.swift": [1643973624, 854766368]
+  "/Users/nazar/SetGame/SetGame/Extensions/Array.swift": [1644344819, 5816459]
+  "/Users/nazar/SetGame/SetGame/Extensions/Collection.swift": [1643980004, 718671321]
+  "/Users/nazar/SetGame/SetGame/Extensions/CollectionCardElement.swift": [1644783677, 731905937]
+  "/Users/nazar/SetGame/SetGame/Extensions/CollectionHashableElement.swift": [1644590172, 630379438]
+  "/Users/nazar/SetGame/SetGame/Extensions/NSObject.swift": [1643988996, 924737453]
+  "/Users/nazar/SetGame/SetGame/Extensions/UIControl.swift": [1644167877, 676144838]
+  "/Users/nazar/SetGame/SetGame/Main MVVM/MainActiveView.swift": [1645645952, 436592817]
+  "/Users/nazar/SetGame/SetGame/Main MVVM/MainPassiveView.swift": [1645455422, 801381587]
+  "/Users/nazar/SetGame/SetGame/Main MVVM/MainViewModel.swift": [1645643230, 339359760]
+  "/Users/nazar/SetGame/SetGame/SceneDelegate.swift": [1644510448, 544425010]
+  "/Users/nazar/SetGame/SetGame/Singletons/AppSettings.swift": [1645630594, 704356670]
+  "/Users/nazar/SetGame/SetGame/Struct models/CardModel.swift": [1645635760, 256775856]
+  "/Users/nazar/SetGame/SetGame/Struct models/DeckModel.swift": [1645636020, 7349014]
+  "/Users/nazar/SetGame/SetGame/Struct models/SetGameModel.swift": [1645643520, 3959655]
+  "/Users/nazar/SetGame/SetGame/Views/CardCollectionViewCell.swift": [1645369302, 661456584]
+  "/Users/nazar/SetGame/SetGame/Views/ShapeButton.swift": [1645381045, 539175748]
+  "/Users/nazar/SetGame/SetGame/Views/ShapeView.swift": [1645646803, 221564292]

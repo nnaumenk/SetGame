@@ -23,6 +23,8 @@ struct AppSettings {
     
     let cardExpectedRatio = 1.4
     
+    let cardAnimationEnabled = true
+    
     static let shared = AppSettings()
     private init() {}
 }
